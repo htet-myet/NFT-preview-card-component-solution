@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.all{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     height: 100vh;
+
+}
+
+
+
+
+
+.imgeye{
+    position: relative;
+    top:20px;
+    right: 24px;
+    opacity:100%;
+    border-radius: 10px;
+    width: 250px;		
+    height: 250px;
+    overflow: hidden;
+}
+
+.eye{
+    position: absolute;
+    padding: 0;
+    transform: translate(-50% , -50%);
+    left: 50%;
+    top: 50%;
+    opacity: 0;
+    background:  hsla(178, 100%, 50%,50%);
+    padding: 40%;
+    transition: 1000ms;
+}
+
+.eye:hover{
+	opacity: 100%;
+    cursor: pointer;
+				
+}
+
+.div{
+     border: 1px solid hsl(216, 50%, 16%);
+	    width: 300px;
+     border-radius: 10px;
+     background-color: hsl(216, 50%, 16%);
+    
+}
+.equilibrium{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin: 20px 0px;
+    border-radius: 10px;
+  
+    
+}
+
+
+h2{
+    margin: 0 20px 30px 20px;
+    color: white;
+    font-size: 20px;
+}
+
+
+.p0{
+
+    margin:10px 20px;
+    color:hsl(215, 51%, 70%);
+    opacity: 50%;
+    font-size: 15px;
+    
+}
+
+.twoimg{
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 0 40px 25px ;
+    
+}
+
+.img{
+  
+    width: 11px;
+    height: 18px;
+    margin: 0 10px;
+}
+
+.div2 {
+    display: flex;
+    color: hsl(178, 100%, 50%);
+    margin: 10px;
+    
+  
+}
+
+.p2{
+    color: hsl(215, 51%, 70%);
+    margin: 0 0 0 5px;
+    
+}  
+
+.clock{
+    margin: 0 3px 0 50px;
+    display: flex;
+  
+   
+}
+
+hr{
+    width: 260px;
+    margin: auto;
+    border: 1px solid white;
+    opacity: 5%;
+}
+
+
+.Creation{
+        color:  hsl(215, 51%, 70%);
+        margin: 20px 0px;
+}
+
+.Jules {
+    display: flex;
+}
+
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 10px 20px;
+}
+
+.Wyvern{ 
+    margin: 20px 5px;
+    color: white;
+}
+
+.Wyvern:hover{
+    color: hsl(178, 100%, 50%);
+     transition:1s;
+}
+
+h2:hover{
+    color: hsl(178, 100%, 50%);
+    transition:1s;
+    cursor: pointer;
+}
+
+.imgclock{
+    width: 17px;
+    height: 17px;
+}
+                                  
